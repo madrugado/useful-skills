@@ -49,3 +49,7 @@ cp -R useful-skills/<skill-name> ~/.agents/skills/
 
 ZCode also discovers skills at `~/.zcode/skills/` and at project scope
 (`<project>/.agents/skills/`).
+
+## License
+
+[MIT](LICENSE)
