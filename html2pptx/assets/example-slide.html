@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Example slide. Copy this as a starting point for each new slide.
+     Rules (see references/html-contract.md for the full list):
+       - body is the slide: 720pt x 405pt, set by slides.css
+       - ALL text inside <p>/<h1-h6>/<ul>/<ol>/<li>/<table> — never bare in <div>/<span>
+       - backgrounds/borders/radius only on <div>
+       - web-safe fonts only; rasterize SVGs to PNG before <img>
+     Verify: node build.js <dir> out.pptx, then convert to PNG (see SKILL.md). -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="../slides.css"></head>
+<body>
+  <div class="frame">
+    <h2>Slide title</h2>
+
+    <div class="columns">
+      <div class="col">
+        <p>Left column paragraph. Use <b>bold</b>, <i>italic</i>, <u>underline</u> freely.</p>
+        <div class="qbox">
+          <p style="margin:0;"><b>Question box:</b> any text here renders inside the yellow callout.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="axis">
+          <h4>A card</h4>
+          <p style="margin:4pt 0 0 0;"><span class="tag tag-green">tag</span></p>
+          <p style="margin:4pt 0 0 0;">Card body text.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="warnbox" style="margin-top:8pt;">
+      <p style="margin:0;">A red warning callout with left accent bar.</p>
+    </div>
+  </div>
+</body></html>
